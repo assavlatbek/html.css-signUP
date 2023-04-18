@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>SIGN UP</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+      <div class="navigations">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contacts</a></li>
+        <li>
+          <a href="#"><button>Login</button></a>
+        </li>
+        <li>
+          <a href="#"><button>Open an account</button></a>
+        </li>
+        <li>
+          <a href="#"><button>EN</button></a>
+        </li>
+      </div>
+    </nav>
+    <br /><br /><br />
+    <div class="module">
+      <div class="module-header">
+        <img src="./images/logo.svg" alt="" />
+        <br />
+        <h1>Welcome to ByTrend!</h1>
+        <br />
+        <p>
+          Already have an account?
+          <span><a href="./Login.html">Log in</a></span>
+        </p>
+      </div>
+      <br />
+      <br />
+      <div class="module-body">
+        <div class="d-flex">
+          <div>
+            <label for="FirstName"
+              >First name<span class="text-star">*</span></label
+            >
+            <input type="text" id="FirstName" placeholder="Your name" />
+          </div>
+          <div>
+            <label for="LastName"
+              >Last name<span class="text-star">*</span></label
+            >
+            <input type="text" id="LastName" placeholder="Your surname" />
+          </div>
+        </div>
+        <br />
+        <label for="BirthDay">Brith Date<span class="text-star">*</span></label>
+        <input type="date" class="comon" name="date" id="BirthDay" />
+        <br />
+        <label for="">Gender<span class="text-star">*</span></label>
+        <div class="d-flex">
+          <div class="checkbox">
+            <input name="Female" value="F" id="Female" type="radio" />
+            <label for="Female"> Female</label>
+          </div>
+          <div class="checkbox">
+            <input name="Male" value="M" id="Male" type="radio" />
+            <label for="Male"> Male</label>
+          </div>
+        </div>
+        <br />
+        <label for="Skype">Skype</label>
+        <input
+          type="text"
+          class="comon"
+          id="Skype"
+          placeholder="Your login Skype"
+        />
+        <br />
+        <label for="Promo">Promo</label>
+        <input type="text" class="comon" id="Promo" placeholder="Your Promo" />
+        <br />
+        <a href="./Step2.html" class="contunie">
+          <button>Contunie <i class="fa-solid fa-arrow-right"></i></button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
